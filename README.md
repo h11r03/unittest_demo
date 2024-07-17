@@ -21,6 +21,12 @@
 `TestZipCodeSearcher`クラスには、モックオブジェクトを使ってAPI呼び出しを模倣するテストケースと、
 実際のAPI呼び出しを行うテストケースの2つが定義されています。
 
+`import request`でerrorが生じた場合は、
+```bash
+pip install requests
+```
+を行いパッケージをインストールしてください。
+
 #### task.py
 
 ToDoリストを管理するToDoListクラスと、そのクラスをテストするTestToDoListAdvancedクラスが含まれています。
